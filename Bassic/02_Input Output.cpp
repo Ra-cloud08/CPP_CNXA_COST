@@ -9,7 +9,7 @@ int main1(){
     std::cin>>b;
     int sum = a+b;
     std::cout<<"The result is: "<<sum<<std::endl;
-    return 0;
+    return 1;
 
 }
 int main(){
@@ -45,6 +45,6 @@ int main(){
 
 
     
-    return 1;
+    return 0;
 }
 
