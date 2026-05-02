@@ -62,10 +62,10 @@ int main(){
         if(Coffe <= 10){
         coffestock -= Coffe;
         }
-        if(Juice <= 20){
+        if(Juice <= 14){
         juicestock -= Juice;
         }
-        if(Matcha <= 20){
+        if(Matcha <= 12){
             matchastock -= Matcha;
         }
     std::cout<<"Remaining coffe stock: "<<coffestock<<" glasses"<<std::endl;
