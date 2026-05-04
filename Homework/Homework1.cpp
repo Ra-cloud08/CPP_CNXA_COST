@@ -2,12 +2,15 @@
     cofee = 2.5$
     juice = 3.35$
     matcha = 3$
+    payment
     coffe and juice has in stock 10 glasses
+    remanning stock
+    update stock 
 */
 
 #include<iostream>
 
-int main(){
+    int main(){
 
     
     float Coffe , Juice, Matcha;
