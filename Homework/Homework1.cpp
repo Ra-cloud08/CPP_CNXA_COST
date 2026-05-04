@@ -1,9 +1,11 @@
 /*write a small program to manage the flow of trade in beverage shop
+    coffe stcok = 10 glasses
+    juice stock = 14 glasses
+    matcha stock = 12 glasses
     cofee = 2.5$
     juice = 3.35$
     matcha = 3$
-    payment
-    coffe and juice has in stock 10 glasses
+    costumer charge
     remanning stock
     update stock 
 */
