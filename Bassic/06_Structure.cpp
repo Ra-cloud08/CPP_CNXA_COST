@@ -3,55 +3,51 @@
 using namespace std;
 
     // defualt constucter (build in)
-    struct _studentInformation{
+    struct StudentInformation{
     
         string name;
         int age;
         string sex;
         float height;
         string ID;
-
     };
-    struct car{
+    struct Car{
         string brand;
         string model;
         int year;
         
-        car():brand (""), model (""), year(0){}
+        Car():brand (""), model (""), year(0){}
     };
-    struct phone{
+    struct Phone{
         string model;
         int ram;
         
-        phone() = default;
-
+        Phone() = default;
     };
-    struct my_information {
+    struct MyIinformation {
     
         string name;
         int age;
         string sex;
         float height;
         string ID;
-
     };
     //constructer with parameter
-    struct library{
+    struct Library{
         int science_book;
         int physic_book;
         int history_book;
         int chemical_book;
 
-        library(int science, int physic,int history,int chemical)
+        Library(int science, int physic,int history,int chemical)
         :science_book(science),physic_book(physic),history_book(history),chemical_book(chemical){
 
         }
-    
     };
    
 int main(){
 
-    _studentInformation p1;
+    StudentInformation p1;
     p1.name = "Theara";
     p1.age = 18;
     p1.height = 1.61;
@@ -59,7 +55,7 @@ int main(){
     p1.ID = "12940294";
     cout<<p1.name<<" "<<p1.age<<" "<<p1.height<<" "<<p1.sex<<" "<<p1.ID<<endl;
 
-    car p2;
+    Car p2;
     p2.brand = "Lexus";
     p2.model = "570";
     p2.year = 2024;
@@ -67,12 +63,12 @@ int main(){
     cout<<p2.model<<endl;
     cout<<p2.year<<endl;
     
-    phone p3;
+    Phone p3;
     p3.model = "17 pro max";
     p3.ram = 8;
     cout<<p3.model<<" "<<p3.ram<<endl;
 
-    library p4 (2430, 4508, 785, 452);
+    Library p4 (2430, 4508, 785, 452);
     cout<<p4.science_book<<" "<<p4.physic_book<<" "<<p4.history_book<<" "<<p4.chemical_book<<endl;
     
 
